@@ -1,0 +1,15 @@
+h1{
+    color: red;
+    font-style: italic;
+    font-weight: 400;
+}
+h3{
+    color: green;
+    font: caption;
+    text-align: center;
+}
+h5{
+    color: blue;
+    text-align: right;
+    font-style: oblique;
+}
