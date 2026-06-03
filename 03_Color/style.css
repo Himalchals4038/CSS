@@ -1,0 +1,200 @@
+/* Color */
+*{
+    margin: 10px;
+}
+body{
+    background-color: rgb(200, 243, 175);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.color{
+    color: red;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+.color h2{
+    color: green;
+    font-family: 'Arial Narrow';
+    font-size: 40px;
+    font-weight: 500;
+}
+.color p{
+    color: blue;
+    background-color: rgb(184, 149, 149);
+    font-family: 'Lucida Sans Unicode';
+    font-size: 30px;
+    text-align: center;
+}
+.color button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(170, 38, 60);
+    color: rgb(228, 223, 157);
+    border-radius: 10px;
+    border-color: rgb(68, 99, 96);
+    border-width: 5px;
+    border-style: groove;
+    font-size: 20px;
+}
+#bt1:hover{
+    background-color: rgb(44, 141, 57);
+    color: rgb(221, 198, 96);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#bt2{
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    background-color:rgb(58, 230, 129);
+    color: rgb(101, 42, 211);
+    border-radius: 4px;
+    border-color: rgb(214, 162, 162);
+    border-width: 3px;
+    border-style: dotted;
+}
+#bt2:hover{
+    background-color: rgb(80, 6, 34);
+    color: rgb(216, 185, 159);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#head2{
+    color: rgb(102, 27, 124);
+    font-family: fantasy;
+    font-size: 2em;
+    text-align: center;
+}
+h3, h4, h5{
+    color: rgb(206, 196, 218);
+    background-color: rgb(12, 43, 8);
+    font-family: 'Times New Roman';
+    text-align: right;
+}
+#h31, #h41{
+    color: rgb(110, 194, 194);
+    font-family:'Trebuchet MS';
+    text-align: left;
+}
+
+/* Alignment */
+.alignment{
+    text-align: justify;
+}
+.alignment .p1{
+    text-align: left;
+}
+.alignment .p2{
+    text-align: right;
+}
+#para2{
+    text-align: center;
+}
+#para4{
+    text-align: start;
+}
+
+/* Text Decoration */
+.pa1{
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 12px;
+}
+.pa2{
+    text-decoration: overline;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.pa3{
+    text-decoration: line-through;
+    font-family: verdana;
+    text-transform: lowercase;
+}
+.pa4{
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+/* Link Decoration */
+#a1{
+    text-decoration: none;
+    font-weight: bold;
+}
+#a1:hover{
+    text-decoration: black solid line-through;
+    cursor: move;
+    transition: 0.3s;
+}
+#l1{
+    color:deeppink;
+    font-size: 20px;
+    background-color: rgb(11, 28, 83);
+    text-decoration: none;
+}
+#l1:hover{
+    text-decoration: underline;
+    color:maroon;
+    background-color: rgb(228, 223, 154);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#l2{
+    color:antiquewhite;
+    background-color:blueviolet;
+    font-size: 50px;
+    font-family: comic sans ms;
+    text-decoration: none;
+}
+#l2:hover{
+    text-decoration: red double underline;
+    color:rgb(121, 207, 140);
+    background-color: rgb(11, 28, 83);
+    cursor: copy;
+    transition: 0.3s;
+}
+#l3{
+    color:rgb(121, 99, 70);
+    background-color:rgb(226, 202, 215);
+    font-size: 40px;
+    text-decoration: none;
+}
+#l3:hover{
+    text-decoration: rgb(176, 192, 168) wavy underline;
+    color:rgb(245, 114, 8);
+    background-color: rgb(76, 84, 109);
+    cursor: crosshair;
+    transition: 0.3s;
+}
+#l4{
+    color:rgb(134, 30, 103);
+    background-color:rgb(113, 243, 52);
+    font-size: 50px;
+    font-family: arial;
+    text-decoration: none;
+}
+#l4:hover{
+    text-decoration: rgb(25, 121, 124) dashed underline;
+    color: rgb(104, 97, 37);
+    background-color: rgb(211, 193, 166);
+    cursor: help;
+    transition: 0.3s;
+}
+#l5{
+    color:rgb(202, 245, 247);
+    background-color:rgb(64, 94, 66);
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+}
+#l5:hover{
+    text-decoration: rgb(131, 31, 31) dotted underline;
+    color:rgb(8, 16, 138);
+    background-color: rgb(167, 197, 182);
+    cursor: cell;
+    transition: 0.3s;
+}
