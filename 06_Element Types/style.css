@@ -1,0 +1,89 @@
+*{
+    background-color:darksalmon;
+    margin: 10px;
+}
+.default div{
+    background-color:rgb(116, 199, 116);
+}
+.default span{
+    background-color:rgb(116, 135, 199);
+}
+.force-inline div{
+    background-color:rgb(224, 147, 208);
+    display: inline;
+}
+.force-inline span{
+    background-color:rgb(77, 202, 211);
+}
+.force-block span{
+    background-color:rgb(77, 202, 211);
+}
+.force-block button{
+    background-color:rgb(224, 147, 208);
+    display: block;
+}
+.block-inline div{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+#blue{
+    background-color:blue;
+}
+#red{
+    background-color:red;
+}
+#green{
+    background-color:green;
+}
+#yellow{
+    background-color:yellow;
+    display: none;
+}
+#violet{
+    background-color:violet;
+    visibility: hidden;
+}
+#box1{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 150px;
+    background-color:honeydew;
+    font-size: 15px;
+}
+#box2{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 40%;
+    text-align: center;
+    font-size: 1.2em;
+    /* em has dynamic updation at each step with elements */
+    background-color:rgb(207, 148, 178);
+    margin-left: 10%;
+    width: 7rem;
+    /* rem is multiplier to root element */
+}
+#box3{
+    margin: 0;
+    padding: 0;
+    height: 15vw;
+    /* vw is multiplier to viewport width */
+    width: 27vh;
+    /* vh is multiplier to viewport height */
+    background-color:honeydew;
+    font-size: 15px;
+}
+#box4{
+    margin: 0;
+    padding: 0;
+    height: 8vh;
+    text-align: center;
+    font-size: 1.2em;
+    background-color:rgb(207, 148, 178);
+    margin-left: 10%;
+    width: 7vw;
+}

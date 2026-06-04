@@ -4,11 +4,10 @@
 }
 body{
     background-color:aquamarine;
-    color:purple;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     font-family: verdana;
-    text-align: center;
+    margin: 20px 20px 10px 10px;
 }
 .box1{
     color: brown;
@@ -17,11 +16,13 @@ body{
     border-radius: 6px;
     height: 50px;
     width: 630px;
+    text-align: center;
 }
 #s11{
     border: 4px solid rgb(127, 143, 70);
     font-family: comic sans ms;
-    padding: 4px;
+    padding: 4px 8px 6px 2px;
+    /* Top Right Bottom Left */
 }
 #s12{
     color: rgb(191, 247, 170);
@@ -51,10 +52,107 @@ body{
     background-color:rgb(177, 151, 238);
     border: 6px solid rgb(15, 61, 44);
     border-radius: 4px;
+    text-align: right;
+}
+#s21{
+    color:rgb(255, 209, 209);
+    background-color:rgb(99, 99, 11);
+    border-width: 4px;
+    border-color:brown;
+    border-style: solid;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+#s22{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: dotted;
+    padding-right: 20px;
+}
+#s23{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: dashed;
+    padding-top: 20px;
+}
+#s24{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 50%;
+    padding-left: 40px;
 }
 .box3{
-    color: rgb(237, 174, 243);
-    background-color:rgb(58, 51, 51);
+    color: rgb(236, 212, 238);
+    background-color:rgb(117, 51, 51);
     border: 5px solid rgb(8, 223, 25);
     border-radius: 2px;
+}
+#s31{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+    margin-right: 40px;
+}
+#s32{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: double;
+    margin-right: 25px;
+}
+#s33{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: dashed;
+}
+#s34{
+    color: rgb(53, 20, 20);
+    background-color:rgb(255, 255, 255);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: dotted;
+}
+.diagram1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.diagram2{
+    height: 400px;
+    width: 200px;
+    background-color: rgb(20, 21, 88);
+}
+#circle1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+#circle2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(207, 172, 97);
+    border-radius: 50%;
+    margin-left: 40px;
+}
+#circle3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 126, 218);
+    border-radius: 50%;
+    margin-left: 40px;
 }
