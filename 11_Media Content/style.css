@@ -1,0 +1,38 @@
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
+.div2{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(199, 184, 54);
+}
+@media (width: 600px){
+    .div1{
+        background-color: darkred;
+    }
+}
+@media (min-width: 700px){
+    .div1{
+        background-color: blue;
+    }
+    .div2{
+        background-color: hotpink;
+    }
+}
+@media (max-width: 500px){
+    .div2{
+        background-color: darkorchid;
+    }
+}
+.div3{
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+}
+@media (min-width: 300px) and (max-width: 650px){
+    .div3{
+        background-color: darkolivegreen;
+    }
+}

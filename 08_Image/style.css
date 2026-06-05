@@ -1,0 +1,46 @@
+body{
+    background-image: url("dice.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+}
+#box1, #box2, #box3, #box4, #box5, #box6{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    background-color: rgb(223, 69, 100);
+    background-image: url("tiger.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box2{
+    background-color: aqua;
+    background-image: url("banyan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box3{
+    background-color: rgb(204, 76, 255);
+    background-image: url("buddha.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box4{
+    background-color: rgb(64, 235, 64);
+    background-image: url("lotus.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box5{
+    background-color: rgb(127, 127, 250);
+}
+#box6{
+    background-color: rgb(243, 204, 77);
+}
