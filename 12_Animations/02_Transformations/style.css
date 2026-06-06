@@ -1,0 +1,161 @@
+*{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#id1{
+    background-color: greenyellow;
+    color:maroon;
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    top: 120px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+}
+#id1:hover{
+    background-color: rgb(21, 19, 124);
+    color:rgb(231, 13, 231);
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    rotate: z 180deg;
+    transition-duration: 0.8s;
+    transition-timing-function:cubic;
+}
+#id2{
+    background-color: rgb(16, 19, 221);
+    color:rgb(255, 251, 24);
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.8s;
+    transition-timing-function:ease-in-out;
+}
+#id2:hover{
+    background-color: rgb(69, 4, 82);
+    color:rgb(159, 250, 99);
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+    rotate: x 90deg;
+    transition-duration: 0.8s;
+    transition-timing-function:cubic;
+}
+#id3{
+    background-color: rgb(97, 12, 146);
+    color:rgb(226, 197, 143);
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+}
+#id3:hover{
+    background-color: rgb(191, 230, 21);
+    color:rgb(119, 12, 119);
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    rotate: y 180deg;
+    top: 250px;
+    transition-duration: 0.8s;
+    transition-timing-function:steps(50);
+}
+#id4{
+    background-color: rgb(145, 8, 42);
+    color:rgb(91, 230, 37);
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+}
+#id4:hover{
+    background-color: rgb(191, 230, 21);
+    color:rgb(119, 12, 119);
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 290px;
+    margin-left: 100px;
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+#id5{
+    background-color: rgb(145, 8, 42);
+    color:rgb(91, 230, 37);
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+}
+#id5:hover{
+    background-color: rgb(191, 230, 21);
+    color:rgb(119, 12, 119);
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 240px;
+    transform: scaleY(0.8);
+    transition-duration: 1s;
+}
+#id6{
+    background-color: rgb(22, 155, 44);
+    color:#6c138f;
+    height: 120px;
+    font-size: 20px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+}
+#id6:hover{
+    background-color: rgb(209, 255, 2);
+    color:rgb(160, 28, 160);
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 240px;
+    transform: scale(0.8, 1);
+    transition-duration: 1s;
+}

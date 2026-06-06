@@ -1,0 +1,195 @@
+*{
+    margin: 10px;
+    padding: 5px;
+}
+.translate{
+    font-family: verdana;
+    font-size: 20px;
+    font-weight:500;
+}
+.translate p{
+    position: relative;
+}
+@keyframes animate{
+    /* from{
+        background-color: aqua;
+        color:midnightblue;
+    } */
+    to{
+        background-color: darkviolet;
+        color:beige;
+    }
+}
+#id1{
+    background-color: rgb(255, 18, 129);
+    color:rgb(13, 87, 68);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id1:hover{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animate;
+    animation-duration: 0.8s;
+    animation-delay: 0.2s;
+    animation-timing-function:ease;
+    animation-iteration-count: 5;
+    animation-direction:alternate;
+}
+#id2{
+    background-color: rgb(255, 160, 18);
+    color:rgb(17, 45, 105);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id2:hover{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animate;
+    animation-duration: 0.8s;
+    animation-delay: 0.2s;
+    animation-timing-function:ease;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+}
+#id3{
+    background-color: rgb(65, 78, 8);
+    color:rgb(110, 148, 228);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id3:hover{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation-name: animate;
+    animation-duration: 0.8s;
+    animation-delay: 0.2s;
+    animation-timing-function:steps(50);
+    animation-iteration-count:infinite;
+    animation-direction:reverse; */
+    animation: animate 0.8s steps(50) 0.2s infinite reverse;
+}
+@keyframes animate1{
+    to{
+        background-color: darkviolet;
+        color:beige;
+    }
+}
+#id4{
+    background-color: rgb(172, 199, 52);
+    color:rgb(12, 27, 61);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id4:hover{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animate1;
+    animation-duration: 0.8s;
+    animation-delay: 0.2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+}
+@keyframes animate2{
+    0% {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+    25%{
+        background-color: rgb(201, 120, 27);
+        color:maroon;
+        transform: translate(100px, 100px);
+        opacity: 0.8;
+        animation-timing-function:ease-out;
+    }
+    50%{
+        background-color: darkolivegreen;
+        color:greenyellow;
+        transform: translate(0px, 200px);
+        opacity: 0.6;
+        animation-timing-function:ease-in;
+    }
+    75%{
+        background-color: coral;
+        color:darkblue;
+        transform: translate(-100px, 100px);
+        opacity: 0.4;
+        animation-timing-function:ease-out;
+    }
+}
+#id5{
+    background-color: darkmagenta;
+    color:rgb(153, 221, 221);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    margin-left: 150px;
+}
+#id5:hover{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    animation-name: animate2;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+}
+@keyframes rotateCircle{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.id6{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+        violet 0deg 50deg,
+        indigo 50deg 100deg,
+        blue 100deg 150deg,
+        green 150deg 200deg,
+        yellow 200deg 250deg,
+        orange 250deg 300deg,
+        red 300deg 360deg
+    );
+}
+.id6:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    animation: rotateCircle 1s alternate infinite;
+}
