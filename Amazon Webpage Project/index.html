@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -197,7 +198,7 @@
         </div>
         <div class="sub-navbar">
             <a href="#" class="sub-nav-item menu-btn">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-bars"></i>
                 All
             </a>
             <a href="#" class="sub-nav-item rufus-btn">
@@ -230,6 +231,19 @@
         </div>
     </header>
     <main>
+        <section class="carousel-container">
+            <div class="carousel-slide active" style="background-image: url('carousel1.jpg');">
+                <div class="content">Mega Deal Days</div>
+            </div>
+            <div class="carousel-slide" style="background-image: url('carousel2.jpg');">
+                <div class="content">Top Offers</div>
+            </div>
+            <div class="carousel-slide" style="background-image: url('carousel3.jpg');">
+                <div class="content">Electronics Sale</div>
+            </div>
+            <button class="nav-btn prev-btn" id="prevBtn">&#10094;</button>
+            <button class="nav-btn next-btn" id="nextBtn">&#10095;</button>
+        </section>
         <section class="product-cards-row1">
             <div class="product-card">
                 <h2 class="card-title">Starting ₹49 | Deals on home essentials</h2>
